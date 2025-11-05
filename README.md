@@ -76,7 +76,7 @@ P.S. The repo includes index.html and styles.css as examples for testing.
 To view metrics directly in Prometheus, open **http://yourMonitorVmIP:9090**, and go to "Status > Target 
 health".
 
-## Preview Dashboard
+## Preview Dashboards
 ### Node Exporter
 ![Node Exporter](https://github.com/gwill1337/Images/blob/main/Auto_Deploy_WebSRV_Images/Node_Exporter_Dashboard.png?raw=true)
 ### NGINX Prometheus Exporter
