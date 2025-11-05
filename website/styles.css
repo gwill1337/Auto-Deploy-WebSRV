@@ -1,0 +1,89 @@
+/* General styles for the entire page body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333;
+}
+
+/* Styles for the header */
+header {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Styles for the navigation menu (nav) */
+nav {
+    background-color: #333; /* Dark grey background */
+}
+
+nav ul {
+    list-style-type: none; /* Remove list markers */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* List items in one line */
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none; /* Remove link underlining */
+    padding: 15px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Change color on hover */
+}
+
+/* Styles for the main content */
+main {
+    padding: 20px;
+    max-width: 960px; /* Limit content width */
+    margin: 20px auto; /* Center the content */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 5px solid #007bff; /* Blue bar on the left */
+}
+
+/* Styles for the button */
+.primary-button {
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.primary-button:hover {
+    background-color: #218838;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Pin to the bottom of the page */
+    bottom: 0;
+    width: 100%;
+}
